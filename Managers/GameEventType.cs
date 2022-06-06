@@ -1,0 +1,25 @@
+﻿public enum GameEventType
+{
+    LoadedLevel,
+    ZoomToTarget,
+    ZoomToView,
+    StartGame,
+    LoseGame,
+    WinGame,
+    PauseGame,
+    ContinueGame,
+    SpawnHero,
+    HeroDie,
+    AfterHeroDie,
+    SpawnEnemy,
+    EnemyDie,
+    SpawnChest,
+    ExposeHiddenItem,
+    DestroyChest,
+    GetToken,
+    SelectAutoPlayHero,
+    ClickPlaceBomb,
+
+    InitPlayer,
+    PlayerDie,
+}
